@@ -1,0 +1,20 @@
+Running Ping Scan...
+Starting Nmap 7.93 ( https://nmap.org ) at 2025-05-11 22:58 IST
+Nmap scan report for root-me.org (212.129.28.16)
+Host is up (0.13s latency).
+rDNS record for 212.129.28.16: www.root-me.org
+Nmap done: 1 IP address (1 host up) scanned in 0.96 seconds
+
+Running Port Scan...
+Starting Nmap 7.93 ( https://nmap.org ) at 2025-05-11 22:58 IST
+Running Ping Scan...
+Starting Nmap 7.93 ( https://nmap.org ) at 2025-05-11 23:06 IST
+Nmap scan report for root-me.org (212.129.28.16)
+Host is up (0.13s latency).
+rDNS record for 212.129.28.16: 16.28.129.212.in-addr.arpa
+Nmap done: 1 IP address (1 host up) scanned in 0.29 seconds
+
+Running Port Scan...
+Starting Nmap 7.93 ( https://nmap.org ) at 2025-05-11 23:06 IST
+Stats: 0:04:31 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 29.22% done; ETC: 23:22 (0:10:56 remaining)

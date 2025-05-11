@@ -1,0 +1,8 @@
+Running Ping Scan...
+Starting Nmap 7.93 ( https://nmap.org ) at 2025-05-11 23:11 IST
+Nmap scan report for 76.76.21.21
+Host is up (0.015s latency).
+Nmap done: 1 IP address (1 host up) scanned in 2.97 seconds
+
+Running Port Scan...
+Starting Nmap 7.93 ( https://nmap.org ) at 2025-05-11 23:11 IST
