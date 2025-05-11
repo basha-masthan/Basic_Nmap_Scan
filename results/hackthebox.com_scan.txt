@@ -1,0 +1,58 @@
+Running Ping Scan...
+Starting Nmap 7.93 ( https://nmap.org ) at 2025-05-11 18:12 IST
+Nmap scan report for hackthebox.com (109.176.239.70)
+Host is up (0.015s latency).
+Other addresses for hackthebox.com (not scanned): 109.176.239.69
+Nmap done: 1 IP address (1 host up) scanned in 1.06 seconds
+
+Running Port Scan...
+Starting Nmap 7.93 ( https://nmap.org ) at 2025-05-11 18:12 IST
+Nmap scan report for hackthebox.com (109.176.239.69)
+Host is up (0.017s latency).
+Other addresses for hackthebox.com (not scanned): 109.176.239.70
+
+PORT     STATE    SERVICE
+21/tcp   filtered ftp
+22/tcp   filtered ssh
+23/tcp   filtered telnet
+25/tcp   filtered smtp
+53/tcp   filtered domain
+80/tcp   open     http
+110/tcp  filtered pop3
+143/tcp  filtered imap
+443/tcp  open     https
+8080/tcp open     http-proxy
+8443/tcp open     https-alt
+
+Nmap done: 1 IP address (1 host up) scanned in 2.38 seconds
+
+Running OS Detection and Service Version Scan...
+Starting Nmap 7.93 ( https://nmap.org ) at 2025-05-11 18:12 IST
+Nmap scan report for hackthebox.com (109.176.239.70)
+Host is up (0.018s latency).
+Other addresses for hackthebox.com (not scanned): 109.176.239.69
+Not shown: 96 filtered tcp ports (no-response)
+PORT     STATE SERVICE  VERSION
+80/tcp   open  http     Cloudflare http proxy
+|_http-title: Did not follow redirect to https://www.hackthebox.com/
+|_http-server-header: cloudflare
+443/tcp  open  ssl/http Cloudflare http proxy
+|_http-title: Did not follow redirect to https://www.hackthebox.com/
+|_http-server-header: cloudflare
+| ssl-cert: Subject: commonName=hackthebox.com
+| Subject Alternative Name: DNS:hackthebox.com, DNS:regex-safety-validator.hackthebox.com
+| Not valid before: 2025-04-26T01:42:22
+|_Not valid after:  2025-07-25T02:41:55
+8080/tcp open  http     Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Did not follow redirect to https://www.hackthebox.com/
+8443/tcp open  ssl/http Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Did not follow redirect to https://www.hackthebox.com/
+| ssl-cert: Subject: commonName=hackthebox.com
+| Subject Alternative Name: DNS:hackthebox.com, DNS:regex-safety-validator.hackthebox.com
+| Not valid before: 2025-04-26T01:42:22
+|_Not valid after:  2025-07-25T02:41:55
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 31.18 seconds
