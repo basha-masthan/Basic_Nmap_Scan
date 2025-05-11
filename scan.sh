@@ -27,7 +27,7 @@ nmap -sn "$target" | tee -a $filename
 
 # Port Scan
 echo -e "\nRunning Port Scan..." | tee -a $filename
-nmap -p 21,22,23,25,53,80,110,143,443,8080,8443 "$target" -Pn | tee -a $filename
+nmap -p 21,22,23,25,53,80,110,143,443,8080,8443 "$target" -Pn | tee -a $filename  ## Redusing the Time for scaning "Based on aggressive(A) scan i was changed the port's"
 
 # OS Detection and Service Version Scan
 echo -e "\nRunning OS Detection and Service Version Scan..." | tee -a $filename
